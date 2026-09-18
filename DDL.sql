@@ -1,7 +1,9 @@
 -- Generado por Oracle SQL Developer Data Modeler 24.3.0.240.1210
---   en:        2026-09-17 21:43:33 CST
+--   en:        2026-09-17 00:00:00 CST
 --   sitio:      Oracle Database 11g
 --   tipo:      Oracle Database 11g
+-- Proyecto:    Comercial La Estrella
+-- Descripcion: Base de datos para control de ventas
 
 
 
@@ -27,9 +29,9 @@ DROP TABLE metodo_pago CASCADE CONSTRAINTS;
 
 DROP TABLE municipio CASCADE CONSTRAINTS;
 
-DROP TABLE pago CASCADE CONSTRAINTS;
-
 DROP TABLE pais CASCADE CONSTRAINTS;
+
+DROP TABLE pago CASCADE CONSTRAINTS;
 
 DROP TABLE persona CASCADE CONSTRAINTS;
 
@@ -48,8 +50,8 @@ DROP TABLE venta CASCADE CONSTRAINTS;
 -- predefined type, no DDL - XMLTYPE
 
 CREATE TABLE cargo (
-    id_car     NUMBER NOT NULL,
-    nombre_car VARCHAR2(50) NOT NULL
+    id_car      NUMBER NOT NULL,
+    nombre_car  VARCHAR2(50) NOT NULL
 )
 LOGGING;
 
@@ -58,10 +60,10 @@ ALTER TABLE cargo ADD CONSTRAINT cargo_pk PRIMARY KEY ( id_car );
 ALTER TABLE cargo ADD CONSTRAINT cargo_nombre_uk UNIQUE ( nombre_car );
 
 CREATE TABLE catalogo_producto (
-    id_ti                     NUMBER NOT NULL,
-    id_pro                    NUMBER NOT NULL,
-    precio_vigente_cat_pro    NUMBER(10, 2) NOT NULL,
-    existencia_actual_cat_pro NUMBER(10) NOT NULL
+    id_ti                      NUMBER NOT NULL,
+    id_pro                     NUMBER NOT NULL,
+    precio_vigente_cat_pro     NUMBER(10, 2) NOT NULL,
+    existencia_actual_cat_pro  NUMBER(10) NOT NULL
 )
 LOGGING;
 
@@ -69,8 +71,8 @@ ALTER TABLE catalogo_producto ADD CONSTRAINT catalogo_producto_pk PRIMARY KEY ( 
                                                                                 id_pro );
 
 CREATE TABLE categoria (
-    id_cat     NUMBER NOT NULL,
-    nombre_cat VARCHAR2(50) NOT NULL
+    id_cat      NUMBER NOT NULL,
+    nombre_cat  VARCHAR2(50) NOT NULL
 )
 LOGGING;
 
@@ -79,10 +81,10 @@ ALTER TABLE categoria ADD CONSTRAINT categoria_pk PRIMARY KEY ( id_cat );
 ALTER TABLE categoria ADD CONSTRAINT categoria_nombre_uk UNIQUE ( nombre_cat );
 
 CREATE TABLE cliente (
-    id_cli                NUMBER NOT NULL,
-    id_tip_ide            NUMBER,
-    numero_identificacion VARCHAR2(30) NOT NULL,
-    id_per                NUMBER NOT NULL
+    id_cli                  NUMBER NOT NULL,
+    id_tip_ide              NUMBER NOT NULL,
+    numero_identificacion   VARCHAR2(30) NOT NULL,
+    id_per                  NUMBER NOT NULL
 )
 LOGGING;
 
@@ -94,9 +96,9 @@ ALTER TABLE cliente ADD CONSTRAINT cliente_identificacion_uk UNIQUE ( id_tip_ide
                                                                       numero_identificacion );
 
 CREATE TABLE departamento (
-    id_dep     NUMBER NOT NULL,
-    nombre_dep VARCHAR2(50) NOT NULL,
-    id_pa      NUMBER
+    id_dep      NUMBER NOT NULL,
+    nombre_dep  VARCHAR2(50) NOT NULL,
+    id_pa       NUMBER NOT NULL
 )
 LOGGING;
 
@@ -106,11 +108,11 @@ ALTER TABLE departamento ADD CONSTRAINT departamento_nombre_uk UNIQUE ( nombre_d
                                                                         id_pa );
 
 CREATE TABLE desglose_venta (
-    id_ven                  NUMBER NOT NULL,
-    id_pro                  NUMBER NOT NULL,
-    cantidad_des_ven        NUMBER(10) NOT NULL,
-    precio_unitario_des_ven NUMBER(10, 2) NOT NULL,
-    subtotal_des_ven        NUMBER(10, 2) NOT NULL
+    id_ven                    NUMBER NOT NULL,
+    id_pro                    NUMBER NOT NULL,
+    cantidad_des_ven          NUMBER(10) NOT NULL,
+    precio_unitario_des_ven   NUMBER(10, 2) NOT NULL,
+    subtotal_des_ven          NUMBER(10, 2) NOT NULL
 )
 LOGGING;
 
@@ -118,11 +120,11 @@ ALTER TABLE desglose_venta ADD CONSTRAINT desglose_venta_pk PRIMARY KEY ( id_ven
                                                                           id_pro );
 
 CREATE TABLE empleado (
-    id_emp             NUMBER NOT NULL,
-    fecha_contratacion DATE NOT NULL,
-    id_ti              NUMBER,
-    id_car             NUMBER,
-    id_per             NUMBER NOT NULL
+    id_emp               NUMBER NOT NULL,
+    fecha_contratacion   DATE NOT NULL,
+    id_ti                NUMBER NOT NULL,
+    id_car               NUMBER NOT NULL,
+    id_per               NUMBER NOT NULL
 )
 LOGGING;
 
@@ -131,8 +133,8 @@ ALTER TABLE empleado ADD CONSTRAINT empleado_pk PRIMARY KEY ( id_emp );
 ALTER TABLE empleado ADD CONSTRAINT empleado_id_per_uk UNIQUE ( id_per );
 
 CREATE TABLE estado_venta (
-    id_es_ven     NUMBER NOT NULL,
-    nombre_es_ven VARCHAR2(20) NOT NULL
+    id_es_ven      NUMBER NOT NULL,
+    nombre_es_ven  VARCHAR2(20) NOT NULL
 )
 LOGGING;
 
@@ -141,8 +143,8 @@ ALTER TABLE estado_venta ADD CONSTRAINT estado_venta_pk PRIMARY KEY ( id_es_ven 
 ALTER TABLE estado_venta ADD CONSTRAINT estado_venta_nombre_uk UNIQUE ( nombre_es_ven );
 
 CREATE TABLE marca (
-    id_mar     NUMBER NOT NULL,
-    nombre_mar VARCHAR2(50) NOT NULL
+    id_mar      NUMBER NOT NULL,
+    nombre_mar  VARCHAR2(50) NOT NULL
 )
 LOGGING;
 
@@ -151,8 +153,8 @@ ALTER TABLE marca ADD CONSTRAINT marca_pk PRIMARY KEY ( id_mar );
 ALTER TABLE marca ADD CONSTRAINT marca_nombre_uk UNIQUE ( nombre_mar );
 
 CREATE TABLE metodo_pago (
-    id_met_pag     NUMBER NOT NULL,
-    nombre_met_pag VARCHAR2(50) NOT NULL
+    id_met_pag      NUMBER NOT NULL,
+    nombre_met_pag  VARCHAR2(50) NOT NULL
 )
 LOGGING;
 
@@ -161,9 +163,9 @@ ALTER TABLE metodo_pago ADD CONSTRAINT metodo_pago_pk PRIMARY KEY ( id_met_pag )
 ALTER TABLE metodo_pago ADD CONSTRAINT metodo_pago_nombre_uk UNIQUE ( nombre_met_pag );
 
 CREATE TABLE municipio (
-    id_mun     NUMBER NOT NULL,
-    nombre_mun VARCHAR2(50) NOT NULL,
-    id_dep     NUMBER
+    id_mun      NUMBER NOT NULL,
+    nombre_mun  VARCHAR2(50) NOT NULL,
+    id_dep      NUMBER NOT NULL
 )
 LOGGING;
 
@@ -172,19 +174,9 @@ ALTER TABLE municipio ADD CONSTRAINT municipio_pk PRIMARY KEY ( id_mun );
 ALTER TABLE municipio ADD CONSTRAINT municipio_nombre_uk UNIQUE ( nombre_mun,
                                                                   id_dep );
 
-CREATE TABLE pago (
-    id_pag     NUMBER NOT NULL,
-    monto_pag  NUMBER(10, 2) NOT NULL,
-    id_met_pag NUMBER,
-    id_ven     NUMBER
-)
-LOGGING;
-
-ALTER TABLE pago ADD CONSTRAINT pago_pk PRIMARY KEY ( id_pag );
-
 CREATE TABLE pais (
-    id_pa     NUMBER NOT NULL,
-    nombre_pa VARCHAR2(50) NOT NULL
+    id_pa      NUMBER NOT NULL,
+    nombre_pa  VARCHAR2(50) NOT NULL
 )
 LOGGING;
 
@@ -192,14 +184,24 @@ ALTER TABLE pais ADD CONSTRAINT pais_pk PRIMARY KEY ( id_pa );
 
 ALTER TABLE pais ADD CONSTRAINT pais_nombre_uk UNIQUE ( nombre_pa );
 
+CREATE TABLE pago (
+    id_pag      NUMBER NOT NULL,
+    monto_pag   NUMBER(10, 2) NOT NULL,
+    id_met_pag  NUMBER NOT NULL,
+    id_ven      NUMBER NOT NULL
+)
+LOGGING;
+
+ALTER TABLE pago ADD CONSTRAINT pago_pk PRIMARY KEY ( id_pag );
+
 CREATE TABLE persona (
-    id_per        NUMBER NOT NULL,
-    nombre_per    VARCHAR2(50) NOT NULL,
-    apellido_per  VARCHAR2(50) NOT NULL,
-    telefono      VARCHAR2(20),
-    correo_per    VARCHAR2(100),
-    direccion_per VARCHAR2(150),
-    id_mun        NUMBER
+    id_per          NUMBER NOT NULL,
+    nombre_per      VARCHAR2(50) NOT NULL,
+    apellido_per    VARCHAR2(50) NOT NULL,
+    telefono        VARCHAR2(20),
+    correo_per      VARCHAR2(100),
+    direccion_per   VARCHAR2(150),
+    id_mun          NUMBER
 )
 LOGGING;
 
@@ -208,31 +210,31 @@ ALTER TABLE persona ADD CONSTRAINT persona_pk PRIMARY KEY ( id_per );
 ALTER TABLE persona ADD CONSTRAINT persona_correo_uk UNIQUE ( correo_per );
 
 CREATE TABLE producto (
-    id_pro          NUMBER NOT NULL,
-    nombre_pro      VARCHAR2(100) NOT NULL,
-    descripcion_pro VARCHAR2(200),
-    id_cat          NUMBER,
-    id_mar          NUMBER
+    id_pro           NUMBER NOT NULL,
+    nombre_pro       VARCHAR2(100) NOT NULL,
+    descripcion_pro  VARCHAR2(200),
+    id_cat           NUMBER NOT NULL,
+    id_mar           NUMBER NOT NULL
 )
 LOGGING;
 
 ALTER TABLE producto ADD CONSTRAINT producto_pk PRIMARY KEY ( id_pro );
 
 CREATE TABLE tienda (
-    id_ti        NUMBER NOT NULL,
-    nombre_ti    VARCHAR2(100) NOT NULL,
-    direccion_ti VARCHAR2(150),
-    telefono_ti  VARCHAR2(20),
-    id_mun       NUMBER,
-    id_tip_tie   NUMBER
+    id_ti          NUMBER NOT NULL,
+    nombre_ti      VARCHAR2(100) NOT NULL,
+    direccion_ti   VARCHAR2(150),
+    telefono_ti    VARCHAR2(20),
+    id_mun         NUMBER NOT NULL,
+    id_tip_tie     NUMBER NOT NULL
 )
 LOGGING;
 
 ALTER TABLE tienda ADD CONSTRAINT tienda_pk PRIMARY KEY ( id_ti );
 
 CREATE TABLE tipo_identificacion (
-    id_tip_ide     NUMBER NOT NULL,
-    nombre_tip_ide VARCHAR2(50) NOT NULL
+    id_tip_ide      NUMBER NOT NULL,
+    nombre_tip_ide  VARCHAR2(50) NOT NULL
 )
 LOGGING;
 
@@ -241,8 +243,8 @@ ALTER TABLE tipo_identificacion ADD CONSTRAINT tipo_identificacion_pk PRIMARY KE
 ALTER TABLE tipo_identificacion ADD CONSTRAINT tipo_identificacion_nombre_uk UNIQUE ( nombre_tip_ide );
 
 CREATE TABLE tipo_tienda (
-    id_tip_tie     NUMBER NOT NULL,
-    nombre_tip_tie VARCHAR2(50) NOT NULL
+    id_tip_tie      NUMBER NOT NULL,
+    nombre_tip_tie  VARCHAR2(50) NOT NULL
 )
 LOGGING;
 
@@ -251,12 +253,12 @@ ALTER TABLE tipo_tienda ADD CONSTRAINT tipo_tienda_pk PRIMARY KEY ( id_tip_tie )
 ALTER TABLE tipo_tienda ADD CONSTRAINT tipo_tienda_nombre_uk UNIQUE ( nombre_tip_tie );
 
 CREATE TABLE venta (
-    id_ven    NUMBER NOT NULL,
-    fecha_ven DATE NOT NULL,
-    id_ti     NUMBER,
-    id_emp    NUMBER,
-    id_cli    NUMBER,
-    id_es_ven NUMBER NOT NULL
+    id_ven      NUMBER NOT NULL,
+    fecha_ven   DATE NOT NULL,
+    id_ti       NUMBER NOT NULL,
+    id_emp      NUMBER NOT NULL,
+    id_cli      NUMBER NOT NULL,
+    id_es_ven   NUMBER NOT NULL
 )
 LOGGING;
 
@@ -400,7 +402,7 @@ ALTER TABLE venta
 -- 
 -- CREATE TABLE                            19
 -- CREATE INDEX                             0
--- ALTER TABLE                             55
+-- ALTER TABLE                             56
 -- CREATE VIEW                              0
 -- ALTER VIEW                               0
 -- CREATE PACKAGE                           0
@@ -417,10 +419,6 @@ ALTER TABLE venta
 -- CREATE DATABASE                          0
 -- CREATE DIMENSION                         0
 -- CREATE DIRECTORY                         0
--- CREATE DISK GROUP                        0
--- CREATE ROLE                              0
--- CREATE ROLLBACK SEGMENT                  0
--- CREATE SEQUENCE                          0
 -- CREATE MATERIALIZED VIEW                 0
 -- CREATE MATERIALIZED VIEW LOG             0
 -- CREATE SYNONYM                           0
