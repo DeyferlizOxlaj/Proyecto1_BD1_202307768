@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CE741003-D8E8-9205-08BD-60727F6C1A7E" name="producto">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>6568482C-EA6B-FF3E-B9F3-402A3D159889</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pro" id="3AF81D74-2369-55DF-5424-0844203B7D57">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>492CE6D9-3F76-D435-F479-393A04AF858D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2C1E4387-1402-1153-D8F1-001D5E361A91</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_pro" id="77EACBCD-CF67-1023-DBC4-A322D184C31E">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>CCB7E152-796E-6117-BF5D-FD7C5983AFA0</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8DA46558-1E37-EF95-8818-4CC31752CFF8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion_pro" id="80BFA1FD-5277-4DF7-B6AB-6944945593DB">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>5E14D131-FA99-6619-B8F6-7624BD1F21E8</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>31954FD5-DE33-0708-B6C7-0EF7FB9492E0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_cat" id="A7830018-3FA5-5CE2-E978-827BBB67F158">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>F335C003-F529-E205-022F-82C2F53BBFA4</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2C1E4387-1402-1153-D8F1-001D5E361A91</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E8B90177-F42A-2CE9-1A05-5AFD0CCEFD65" referredColumn="08D41554-3B14-5E0E-EE3F-8E3A5881CEE3"/>
+</associations>
+</Column>
+<Column name="id_mar" id="8F7EF203-68BE-A8EA-8EE0-B5DF994F7C8B">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>C664E04F-CF07-F2CB-9E09-863911399ECF</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2C1E4387-1402-1153-D8F1-001D5E361A91</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB3DF791-0F9B-C02B-A988-33910AA6D6BB" referredColumn="6C6501E2-D40A-AA42-9B4C-7E79771A81B1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3518BB77-4EFF-3205-52DC-9A1302A0792B" name="producto_pk">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>52DF2664-F272-745C-E11E-879D84C57150</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3AF81D74-2369-55DF-5424-0844203B7D57"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="738D1870-E327-BA4B-CBEA-8866822A9830" name="producto_categoria_fk">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7830018-3FA5-5CE2-E978-827BBB67F158"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C43E4BF0-8F24-594A-A992-474F4D845EAC" name="producto_marca_fk">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F7EF203-68BE-A8EA-8EE0-B5DF994F7C8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

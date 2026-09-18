@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A3FC271D-1DF7-E1A6-B3DF-C852BA219022" name="tienda">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>00F882FC-AC12-1705-5A23-A5A19E1C7039</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_ti" id="FDA4C101-2995-247F-1CE1-5BE232F91070">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>A6AF41D9-8153-F675-ED70-EB7DFB242DE7</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2C1E4387-1402-1153-D8F1-001D5E361A91</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_ti" id="B8140682-16BA-0187-EA46-A94F64ACAB9D">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>14AE691E-2B47-39B6-0DB3-08DA753DE0DD</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8DA46558-1E37-EF95-8818-4CC31752CFF8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion_ti" id="281D0F71-BF0F-7930-622C-55C3FA87F461">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>D6D847B3-E6F5-9D58-A2B2-101D480EF85C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>47E316A6-F55F-FB9E-12E2-5EDDBF5AFBE3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono_ti" id="6EB75628-5EA4-3482-760B-D2E78F082D9B">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>CD240A92-076A-CE51-3A3E-DA5273266996</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CBB00430-B746-7049-EF51-84B65E2D6F86</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_mun" id="70A96A92-2A8D-500F-2BA2-DF281941EDDB">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>D3E9ED73-63CE-165B-0929-8CB9CD9AFCCE</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2C1E4387-1402-1153-D8F1-001D5E361A91</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B9376733-7635-5930-0A78-2CC922BE7434" referredColumn="93B8A3B4-EF7A-F7BE-B998-DC7C9A7FAD71"/>
+</associations>
+</Column>
+<Column name="id_tip_tie" id="DB47CDEE-772D-2C73-D0F6-001502DC52CB">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>4E1E5829-7FC0-BC97-566D-971BC99426FF</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2C1E4387-1402-1153-D8F1-001D5E361A91</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DF6D4661-F9EE-096C-8211-6574E9777B9F" referredColumn="3CD7B766-D5FA-9FCD-4FC9-C932A55C5A20"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B4D10C93-7547-81B1-DFFE-2FA4FBEE441C" name="tienda_pk">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>D70E4DFD-885B-D17B-8073-C102CAE4B29A</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FDA4C101-2995-247F-1CE1-5BE232F91070"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="00C3B439-31B4-DF38-0690-9A6C07F76B7D" name="tienda_municipio_fk">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="70A96A92-2A8D-500F-2BA2-DF281941EDDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="21E5360E-CA18-7F0B-0B2E-AE04D512A050" name="tienda_tipo_tienda_fk">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB47CDEE-772D-2C73-D0F6-001502DC52CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

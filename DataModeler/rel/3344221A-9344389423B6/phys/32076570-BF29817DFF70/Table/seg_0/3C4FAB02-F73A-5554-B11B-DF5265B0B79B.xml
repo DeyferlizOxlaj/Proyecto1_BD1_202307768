@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="tipo_identificacion" directorySegmentName="seg_0" id="3C4FAB02-F73A-5554-B11B-DF5265B0B79B">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="id_tip_ide" id="11210229-1D8A-BD7A-6BBB-888D148B7B36">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nombre_tip_ide" id="6A2E3BE4-D39F-A942-BE18-760B72F56D55">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="tipo_identificacion_pk" id="00C0B5D9-59EA-CD7B-99A1-310D25FC6838">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="tipo_identificacion_nombre_uk" id="4F2D0E35-6F34-C38E-C9E5-3D32950EAA72">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

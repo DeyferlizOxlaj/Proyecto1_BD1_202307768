@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="empleado" directorySegmentName="seg_0" id="9183ECC7-0215-4B24-75DD-951FD592DD45">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="id_ti" id="472DF112-231B-A1C2-C298-31F82CBBD8A1">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_car" id="82266143-14B1-B583-C5B3-956A2CD9BB4B">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_emp" id="9B4739D3-E3F4-1870-E3DA-9430A73E8796">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_per" id="CBC3647B-CA07-4514-13D5-F384E4D89D0F">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="fecha_contratacion" id="D53E7EB3-0DE9-558E-4BF4-BD2E7649D7FB">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="empleado_tienda_fk" id="16567127-768A-F8F4-EE62-FF574060EA03">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="empleado_persona_fk" id="ACAA9517-8A12-2A74-08FA-3F755CB6EC66">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="empleado_cargo_fk" id="B1F513A8-017F-1D25-E740-8B3D62AD921D">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="empleado_pk" id="269170FF-BD19-6FFB-7255-0159E3D2EC66">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="empleado_id_per_uk" id="83EDEB43-2403-E074-B46F-F887B0A9167D">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

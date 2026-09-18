@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EC5A3BC0-AE85-15A0-A2B2-D49C49832B95" name="desglose venta">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:59 UTC</createdTime>
+<generatorID>BE630CFA-BEE4-9B90-F153-219F1A33FCF3</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CD3D2CBE-1BAE-0032-668E-773E945D2DC3" value="true"/>
+<item key="3344221A-B4D8-24CD-FD91-9344389423B6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id ven" id="0787B191-0BC7-3B68-525D-C8516D908DF1">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:59 UTC</createdTime>
+<generatorID>C19E3160-3809-B3F8-42CB-7E88F9E129E3</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CD3D2CBE-1BAE-0032-668E-773E945D2DC3" value="true"/>
+<item key="3344221A-B4D8-24CD-FD91-9344389423B6" value="true"/>
+</engineerTo>
+<referedAttribute>162E9D0F-E40B-EBBC-BE0F-A526F5F6848B</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2C1E4387-1402-1153-D8F1-001D5E361A91</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id pro" id="8D949C4B-46A9-9FA5-5F6A-590E7C26FCD9">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:59 UTC</createdTime>
+<generatorID>383AA311-FBDA-36FF-FF14-332A598A1AF8</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CD3D2CBE-1BAE-0032-668E-773E945D2DC3" value="true"/>
+<item key="3344221A-B4D8-24CD-FD91-9344389423B6" value="true"/>
+</engineerTo>
+<referedAttribute>1542A63A-59B5-A6F7-6B7D-8C013E7A1E04</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2C1E4387-1402-1153-D8F1-001D5E361A91</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cantidad des ven" id="E1B5D7CB-8421-02B0-086A-A4E903D625BF">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:59 UTC</createdTime>
+<generatorID>FBAD022D-5AF1-8ECD-0659-DDD5B6A58644</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CD3D2CBE-1BAE-0032-668E-773E945D2DC3" value="true"/>
+<item key="3344221A-B4D8-24CD-FD91-9344389423B6" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>AC1572F5-277A-6FB9-2211-A06C4F1B9668</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precio unitario des ven" id="7BBC8227-4C89-7641-BA20-264517F1CB46">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:59 UTC</createdTime>
+<generatorID>377C9021-E93E-BAF5-9A05-F536754A8129</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CD3D2CBE-1BAE-0032-668E-773E945D2DC3" value="true"/>
+<item key="3344221A-B4D8-24CD-FD91-9344389423B6" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F95C7FA4-6D4C-7239-D0E5-1A90088249C2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="subtotal des ven" id="A640C43F-1951-06BF-1C41-032880170AF5">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:59 UTC</createdTime>
+<generatorID>3FC95D32-CA4D-8EBC-A584-21CD11AB6661</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CD3D2CBE-1BAE-0032-668E-773E945D2DC3" value="true"/>
+<item key="3344221A-B4D8-24CD-FD91-9344389423B6" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F95C7FA4-6D4C-7239-D0E5-1A90088249C2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B126D7B3-4F36-0A76-E6F2-AECE8865EC3F" name="desglose venta pk">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:59 UTC</createdTime>
+<generatorID>37326AA9-BF29-D43C-F983-18427BD93FDE</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CD3D2CBE-1BAE-0032-668E-773E945D2DC3" value="true"/>
+<item key="3344221A-B4D8-24CD-FD91-9344389423B6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0787B191-0BC7-3B68-525D-C8516D908DF1</attributeRef>
+<attributeRef>8D949C4B-46A9-9FA5-5F6A-590E7C26FCD9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="525E92FC-B25D-CBA9-16E0-BFD9913A158E" name="estado venta">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:59 UTC</createdTime>
+<generatorID>B4A8856F-3F32-085D-B5D3-E9826008FB74</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CD3D2CBE-1BAE-0032-668E-773E945D2DC3" value="true"/>
+<item key="3344221A-B4D8-24CD-FD91-9344389423B6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id es ven" id="782AF75E-0CA8-CD43-5527-912CDBF1DAD5">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:59 UTC</createdTime>
+<generatorID>2CAE5D5E-3E9A-C4B5-6913-C4057571375D</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CD3D2CBE-1BAE-0032-668E-773E945D2DC3" value="true"/>
+<item key="3344221A-B4D8-24CD-FD91-9344389423B6" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2C1E4387-1402-1153-D8F1-001D5E361A91</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre es ven" id="08406EA6-78BA-3101-19CC-0F1318CC3B24">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:59 UTC</createdTime>
+<generatorID>00492A1A-9E29-6CF8-A366-09743432CE61</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CD3D2CBE-1BAE-0032-668E-773E945D2DC3" value="true"/>
+<item key="3344221A-B4D8-24CD-FD91-9344389423B6" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CBB00430-B746-7049-EF51-84B65E2D6F86</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="746998F9-B5A3-3C49-20B7-C8BF61F18D99" name="estado venta pk">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:59 UTC</createdTime>
+<generatorID>C08C53A6-0CE7-86DD-8DB8-55B67E3DA88F</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CD3D2CBE-1BAE-0032-668E-773E945D2DC3" value="true"/>
+<item key="3344221A-B4D8-24CD-FD91-9344389423B6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>782AF75E-0CA8-CD43-5527-912CDBF1DAD5</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="3ED5E6F2-B058-FDF8-F6DF-16EC5BFC231D" name="estado venta nombre uk">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:59 UTC</createdTime>
+<generatorID>651E51E7-3FC2-D6F4-26AD-1E0943124783</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CD3D2CBE-1BAE-0032-668E-773E945D2DC3" value="true"/>
+<item key="3344221A-B4D8-24CD-FD91-9344389423B6" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>08406EA6-78BA-3101-19CC-0F1318CC3B24</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

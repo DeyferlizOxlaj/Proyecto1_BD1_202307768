@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A25FBB3A-9119-3E87-E5E1-91507B27B217" name="pais">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>1FE31FBD-DC10-99A7-5492-782F9E21F9AD</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pa" id="5D41EBEC-0681-851B-3D8F-6408D1ED5677">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>0E3584AE-795E-6517-5DB8-9F01897011FC</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2C1E4387-1402-1153-D8F1-001D5E361A91</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_pa" id="7B0F1028-6A81-3DBF-7ADE-8E1F4012D927">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>5116E267-2CD6-7C1D-0B7B-2C7BDCA048EC</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2F0CB5F2-20E4-41A9-C82C-631531175BB7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C8816D01-A8FC-8950-A914-295DC7D4F869" name="pais_pk">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>A8B8C0E6-73F8-9CD2-148E-0506002D6C81</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D41EBEC-0681-851B-3D8F-6408D1ED5677"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1B323388-41B1-CC1F-B8F9-0ED03D61FB33" name="pais_nombre_uk">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>2B7358B9-5629-90DE-6142-2A8C39FBED7C</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B0F1028-6A81-3DBF-7ADE-8E1F4012D927"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

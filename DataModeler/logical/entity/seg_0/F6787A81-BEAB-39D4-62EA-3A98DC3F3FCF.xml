@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F6787A81-BEAB-39D4-62EA-3A98DC3F3FCF" name="persona">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:59 UTC</createdTime>
+<generatorID>10B07557-8AF5-8121-60A8-7C6973EDD3E8</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CD3D2CBE-1BAE-0032-668E-773E945D2DC3" value="true"/>
+<item key="3344221A-B4D8-24CD-FD91-9344389423B6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id per" id="7C2E11BD-D020-3B2C-0A28-CFB1C00F00AD">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:59 UTC</createdTime>
+<generatorID>C627DE00-6533-A9E0-7A98-B09FC729DB29</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CD3D2CBE-1BAE-0032-668E-773E945D2DC3" value="true"/>
+<item key="3344221A-B4D8-24CD-FD91-9344389423B6" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2C1E4387-1402-1153-D8F1-001D5E361A91</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre per" id="4DEEB9CB-E4C0-3BCF-B0D2-BF3283752244">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:59 UTC</createdTime>
+<generatorID>A1BF5B3D-FE0D-E40E-E82F-50F1444BBCBC</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CD3D2CBE-1BAE-0032-668E-773E945D2DC3" value="true"/>
+<item key="3344221A-B4D8-24CD-FD91-9344389423B6" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2F0CB5F2-20E4-41A9-C82C-631531175BB7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellido per" id="F54A766D-9E8A-0685-65AB-944BF8BBC3A8">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:59 UTC</createdTime>
+<generatorID>B4C1D44A-D62E-AD18-04EA-D84C2ECDE550</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CD3D2CBE-1BAE-0032-668E-773E945D2DC3" value="true"/>
+<item key="3344221A-B4D8-24CD-FD91-9344389423B6" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2F0CB5F2-20E4-41A9-C82C-631531175BB7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="8158F2BA-8761-FA8D-4126-FA31FC91CA96">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:59 UTC</createdTime>
+<generatorID>46EAAC72-47CF-4626-6BBB-74F6F3C6A495</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CD3D2CBE-1BAE-0032-668E-773E945D2DC3" value="true"/>
+<item key="3344221A-B4D8-24CD-FD91-9344389423B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CBB00430-B746-7049-EF51-84B65E2D6F86</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="correo per" id="277278A7-2B76-E2A1-BF8D-4183D5F288F0">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:59 UTC</createdTime>
+<generatorID>8158992C-AE20-483D-8994-3469CBAF02EF</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CD3D2CBE-1BAE-0032-668E-773E945D2DC3" value="true"/>
+<item key="3344221A-B4D8-24CD-FD91-9344389423B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8DA46558-1E37-EF95-8818-4CC31752CFF8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion per" id="5CBB9BEF-1DAC-2CF8-B72E-83057296844B">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:59 UTC</createdTime>
+<generatorID>024FE0BC-163D-D1C1-56BB-6B41207504F4</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CD3D2CBE-1BAE-0032-668E-773E945D2DC3" value="true"/>
+<item key="3344221A-B4D8-24CD-FD91-9344389423B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>47E316A6-F55F-FB9E-12E2-5EDDBF5AFBE3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id mun" id="695C2C08-B47B-BF7F-9C96-45DC0A08A751">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:59 UTC</createdTime>
+<generatorID>67108109-CEB9-B6BF-34FD-0E1B2F91B1C5</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CD3D2CBE-1BAE-0032-668E-773E945D2DC3" value="true"/>
+<item key="3344221A-B4D8-24CD-FD91-9344389423B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>EA836BFB-05FF-C485-3904-E89B93002D22</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2C1E4387-1402-1153-D8F1-001D5E361A91</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="49F4CEF7-9096-076D-DA7A-34D7840AC938" name="persona pk">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:59 UTC</createdTime>
+<generatorID>8CE009C6-DB06-3254-1E61-5554844C7B14</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CD3D2CBE-1BAE-0032-668E-773E945D2DC3" value="true"/>
+<item key="3344221A-B4D8-24CD-FD91-9344389423B6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7C2E11BD-D020-3B2C-0A28-CFB1C00F00AD</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="39380CDE-2059-7D7F-6F3A-003B72679D87" name="persona correo uk">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:59 UTC</createdTime>
+<generatorID>A3B28F34-D40D-F3EA-DF5F-647C5D5EDC5B</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CD3D2CBE-1BAE-0032-668E-773E945D2DC3" value="true"/>
+<item key="3344221A-B4D8-24CD-FD91-9344389423B6" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>277278A7-2B76-E2A1-BF8D-4183D5F288F0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

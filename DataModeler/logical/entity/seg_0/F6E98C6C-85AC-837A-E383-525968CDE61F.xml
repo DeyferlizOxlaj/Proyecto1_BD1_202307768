@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F6E98C6C-85AC-837A-E383-525968CDE61F" name="municipio">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:59 UTC</createdTime>
+<generatorID>254EF0B7-91B4-9C8F-5059-5B2F589F69B2</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CD3D2CBE-1BAE-0032-668E-773E945D2DC3" value="true"/>
+<item key="3344221A-B4D8-24CD-FD91-9344389423B6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id mun" id="EA836BFB-05FF-C485-3904-E89B93002D22">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:59 UTC</createdTime>
+<generatorID>93B8A3B4-EF7A-F7BE-B998-DC7C9A7FAD71</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CD3D2CBE-1BAE-0032-668E-773E945D2DC3" value="true"/>
+<item key="3344221A-B4D8-24CD-FD91-9344389423B6" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2C1E4387-1402-1153-D8F1-001D5E361A91</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre mun" id="41F8A3DE-A45C-14C9-95F5-ED91B57CB38D">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:59 UTC</createdTime>
+<generatorID>5D81DBC8-FD64-D281-283B-BF88D69BE25C</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CD3D2CBE-1BAE-0032-668E-773E945D2DC3" value="true"/>
+<item key="3344221A-B4D8-24CD-FD91-9344389423B6" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2F0CB5F2-20E4-41A9-C82C-631531175BB7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id dep" id="0E9C2485-7506-14D4-D342-85F8467D99EB">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:59 UTC</createdTime>
+<generatorID>483B7E24-BE4B-9DC1-2E3B-D0BDB5E91AD0</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CD3D2CBE-1BAE-0032-668E-773E945D2DC3" value="true"/>
+<item key="3344221A-B4D8-24CD-FD91-9344389423B6" value="true"/>
+</engineerTo>
+<referedAttribute>CAF4F22C-23BC-024E-209F-34B12BF2D673</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2C1E4387-1402-1153-D8F1-001D5E361A91</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A89F6730-5640-211A-23D5-3ED61A06F2D1" name="municipio pk">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:59 UTC</createdTime>
+<generatorID>F37A29C0-2474-60FD-EF12-71E300F56AF1</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CD3D2CBE-1BAE-0032-668E-773E945D2DC3" value="true"/>
+<item key="3344221A-B4D8-24CD-FD91-9344389423B6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EA836BFB-05FF-C485-3904-E89B93002D22</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="F14BBC5D-5C66-5AF4-CD98-DB8C82211C34" name="municipio nombre uk">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:59 UTC</createdTime>
+<generatorID>6ED0212A-01AC-E2C7-EC3D-7D9C6D393B48</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CD3D2CBE-1BAE-0032-668E-773E945D2DC3" value="true"/>
+<item key="3344221A-B4D8-24CD-FD91-9344389423B6" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>41F8A3DE-A45C-14C9-95F5-ED91B57CB38D</attributeRef>
+<attributeRef>0E9C2485-7506-14D4-D342-85F8467D99EB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

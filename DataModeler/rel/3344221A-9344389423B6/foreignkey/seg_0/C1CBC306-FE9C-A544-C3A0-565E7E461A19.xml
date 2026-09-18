@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C1CBC306-FE9C-A544-C3A0-565E7E461A19" containerWithKeyObject="F2F87C5E-132A-C467-0567-B19D5D518222" localFKIndex="29DE28E6-6DB0-046D-F5FB-9709AD91E15C" name="pago_metodo_pago_fk">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>CE79F409-A63F-53B2-5007-9A655FBFC01B</importedID>
+<referredTableLongName>metodo_pago</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2859E375-A2D2-32F8-440B-464676B4C917</referredTableID>
+<keyObject>4F470095-B080-A6DB-431E-859C914BE477</keyObject>
+<referredKeyID>4F470095-B080-A6DB-431E-859C914BE477</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_met_pag</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="empleado_cargo_fk" directorySegmentName="seg_0" id="EC1FA744-7AEF-7348-3498-6FA37B77FFD4">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:59 UTC</createdTime>
+<generatorID>3AE72D81-9364-32C0-6E3B-0C2C190B763C</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CD3D2CBE-1BAE-0032-668E-773E945D2DC3" value="true"/>
+<item key="3344221A-B4D8-24CD-FD91-9344389423B6" value="true"/>
+</engineerTo>
+<sourcePk>639BA4F1-50C7-183F-B1C1-8AA9242FB2F0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>ECDC2F2F-A475-358A-CC0A-9E28C7EBF680</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>632AB03F-52D3-0A93-6C9A-A1EAD7AE15FC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

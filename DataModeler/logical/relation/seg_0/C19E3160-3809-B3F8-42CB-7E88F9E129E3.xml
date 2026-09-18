@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="desglose_venta_venta_fk" directorySegmentName="seg_0" id="C19E3160-3809-B3F8-42CB-7E88F9E129E3">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:59 UTC</createdTime>
+<generatorID>64CE54D7-35A4-8A02-E1DC-2AEEB18CDB39</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CD3D2CBE-1BAE-0032-668E-773E945D2DC3" value="true"/>
+<item key="3344221A-B4D8-24CD-FD91-9344389423B6" value="true"/>
+</engineerTo>
+<sourcePk>9557DF3B-E584-F589-78FB-860FB2B9A10A</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>267FC3CE-E1FA-9D3A-FA91-0473CEE1D895</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EC5A3BC0-AE85-15A0-A2B2-D49C49832B95</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

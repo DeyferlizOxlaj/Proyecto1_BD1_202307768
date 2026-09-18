@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="venta_empleado_fk" directorySegmentName="seg_0" id="88294A26-A008-121E-E885-1EAEC15289AC">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:59 UTC</createdTime>
+<generatorID>AF7CBBA6-2629-B2A0-CABC-934341514AA1</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CD3D2CBE-1BAE-0032-668E-773E945D2DC3" value="true"/>
+<item key="3344221A-B4D8-24CD-FD91-9344389423B6" value="true"/>
+</engineerTo>
+<sourcePk>89E16AC8-244B-A077-AB52-5EA43138FECC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>632AB03F-52D3-0A93-6C9A-A1EAD7AE15FC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>267FC3CE-E1FA-9D3A-FA91-0473CEE1D895</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pago_metodo_pago_fk" directorySegmentName="seg_0" id="63D98C1E-CA73-8C40-2922-71B7870790B4">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:59 UTC</createdTime>
+<generatorID>C1CBC306-FE9C-A544-C3A0-565E7E461A19</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CD3D2CBE-1BAE-0032-668E-773E945D2DC3" value="true"/>
+<item key="3344221A-B4D8-24CD-FD91-9344389423B6" value="true"/>
+</engineerTo>
+<sourcePk>1056E6DA-1A0E-E28A-A713-9D2DA6F1509D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A8975777-4B8B-0CAC-71B7-7AFEEA5D1C0E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0014D5A6-9903-37D7-6C05-2C9828F2A1A4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

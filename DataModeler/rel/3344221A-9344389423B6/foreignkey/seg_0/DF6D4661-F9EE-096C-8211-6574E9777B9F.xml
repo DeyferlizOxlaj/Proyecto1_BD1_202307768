@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DF6D4661-F9EE-096C-8211-6574E9777B9F" containerWithKeyObject="A3FC271D-1DF7-E1A6-B3DF-C852BA219022" localFKIndex="21E5360E-CA18-7F0B-0B2E-AE04D512A050" name="tienda_tipo_tienda_fk">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>068BEC6E-18B5-6FC3-E51A-62FB94155040</importedID>
+<referredTableLongName>tipo_tienda</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3A0293F1-B028-602A-83D3-3E1E2CB917C9</referredTableID>
+<keyObject>D4D625C1-0E99-8E12-D49D-50ED79B18C36</keyObject>
+<referredKeyID>D4D625C1-0E99-8E12-D49D-50ED79B18C36</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_tip_tie</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

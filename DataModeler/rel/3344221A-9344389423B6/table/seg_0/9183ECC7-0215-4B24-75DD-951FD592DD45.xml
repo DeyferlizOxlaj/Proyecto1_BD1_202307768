@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9183ECC7-0215-4B24-75DD-951FD592DD45" name="empleado">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>D040CC19-BA57-56AE-726E-CD00E6972FE6</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_emp" id="9B4739D3-E3F4-1870-E3DA-9430A73E8796">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>9906C2A0-6C9E-9993-6DBF-2B11206593FB</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2C1E4387-1402-1153-D8F1-001D5E361A91</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_contratacion" id="D53E7EB3-0DE9-558E-4BF4-BD2E7649D7FB">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>86D8B750-0362-4784-38D3-DF7DF7B99E19</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>4FAF3512-6730-4224-0DFB-EAAD08F064B2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_ti" id="472DF112-231B-A1C2-C298-31F82CBBD8A1">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>1218F71F-3EEF-B149-4D6D-320B3AED3F8F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2C1E4387-1402-1153-D8F1-001D5E361A91</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D3B75A7D-604A-CFBA-A6BC-8C8792C3EA5A" referredColumn="FDA4C101-2995-247F-1CE1-5BE232F91070"/>
+</associations>
+</Column>
+<Column name="id_car" id="82266143-14B1-B583-C5B3-956A2CD9BB4B">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>DEC1DD1A-EB29-CD56-31D1-669733DFBD8A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2C1E4387-1402-1153-D8F1-001D5E361A91</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3AE72D81-9364-32C0-6E3B-0C2C190B763C" referredColumn="576F035F-67EF-00CB-011A-3DD213F5AD01"/>
+</associations>
+</Column>
+<Column name="id_per" id="CBC3647B-CA07-4514-13D5-F384E4D89D0F">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>63CFA438-560E-0417-9A30-DC37948E7E43</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2C1E4387-1402-1153-D8F1-001D5E361A91</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="24B1B889-D0CC-A504-CA89-31606D700F03" referredColumn="C627DE00-6533-A9E0-7A98-B09FC729DB29"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="269170FF-BD19-6FFB-7255-0159E3D2EC66" name="empleado_pk">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>6B667E69-1755-72B0-90D5-2BF715D74F52</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B4739D3-E3F4-1870-E3DA-9430A73E8796"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="83EDEB43-2403-E074-B46F-F887B0A9167D" name="empleado_id_per_uk">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>74B13E5E-B48E-E9CF-C375-EFE6CFA2358C</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBC3647B-CA07-4514-13D5-F384E4D89D0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B1F513A8-017F-1D25-E740-8B3D62AD921D" name="empleado_cargo_fk">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82266143-14B1-B583-C5B3-956A2CD9BB4B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ACAA9517-8A12-2A74-08FA-3F755CB6EC66" name="empleado_persona_fk">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBC3647B-CA07-4514-13D5-F384E4D89D0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="16567127-768A-F8F4-EE62-FF574060EA03" name="empleado_tienda_fk">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="472DF112-231B-A1C2-C298-31F82CBBD8A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CCE6F374-A94C-67EB-D596-8269EF1933B0" name="venta">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>3EADDAC2-1D54-2722-4554-9B53E630C8DB</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_ven" id="F9672935-3E92-7D68-3215-D9D7DF2B7DDC">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>5886926F-B506-E5E8-56FA-37313918A838</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2C1E4387-1402-1153-D8F1-001D5E361A91</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_ven" id="192D4DBD-A22E-2ECB-574A-AA6A0A03FB17">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>F2E8D897-AEB4-F34A-1937-01182097ACCB</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>4FAF3512-6730-4224-0DFB-EAAD08F064B2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_ti" id="0AD08C5D-503C-9149-48EB-A16AFD53868A">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>761CC8E4-6409-72F3-B48F-E62AF2E0F2DA</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2C1E4387-1402-1153-D8F1-001D5E361A91</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE12DC73-AA70-4F44-2522-4D2A941A1A5A" referredColumn="FDA4C101-2995-247F-1CE1-5BE232F91070"/>
+</associations>
+</Column>
+<Column name="id_emp" id="653BAFB8-EF72-3F29-CDE6-5A4202C75A46">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>74A1205E-F0D5-9FD2-A10A-503AEC6C3CA7</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2C1E4387-1402-1153-D8F1-001D5E361A91</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AF7CBBA6-2629-B2A0-CABC-934341514AA1" referredColumn="9B4739D3-E3F4-1870-E3DA-9430A73E8796"/>
+</associations>
+</Column>
+<Column name="id_cli" id="1F74650A-A361-0D4B-ABC3-5E2A87043DAF">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>8F81EAD4-E7F0-6C6D-38C2-4EC80C4B1E33</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2C1E4387-1402-1153-D8F1-001D5E361A91</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="89851D1C-852F-920F-9A06-D5566C9AEA48" referredColumn="718E8CB1-4CC0-3BB2-684A-258490DA3D9D"/>
+</associations>
+</Column>
+<Column name="id_es_ven" id="339ED123-1597-0D76-43C7-03C79EE428FA">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>B938683E-6F23-9E6A-D737-3E222027862F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2C1E4387-1402-1153-D8F1-001D5E361A91</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C19EBFF5-89D6-CDB2-42B7-119EACE61C41" referredColumn="2CAE5D5E-3E9A-C4B5-6913-C4057571375D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A85D0403-B7E7-C88D-1BCF-B50E3DA73A80" name="venta_pk">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>E1E8CCCA-4531-6363-FDA0-5F81DE494577</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9672935-3E92-7D68-3215-D9D7DF2B7DDC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F79B96A8-9F24-A65A-AD2F-B3834A543310" name="venta_cliente_fk">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F74650A-A361-0D4B-ABC3-5E2A87043DAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4DB39F3-E597-A1F4-1F10-F195BE6787EB" name="venta_empleado_fk">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="653BAFB8-EF72-3F29-CDE6-5A4202C75A46"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="60A717F0-4DFF-9BC8-8C83-CEDF9949DD7F" name="venta_estado_venta_fk">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="339ED123-1597-0D76-43C7-03C79EE428FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C2ACF714-52B4-019A-56EE-84E93B4294B0" name="venta_tienda_fk">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0AD08C5D-503C-9149-48EB-A16AFD53868A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

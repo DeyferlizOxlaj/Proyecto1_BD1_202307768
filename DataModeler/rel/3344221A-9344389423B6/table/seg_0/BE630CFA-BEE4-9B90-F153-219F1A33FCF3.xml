@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BE630CFA-BEE4-9B90-F153-219F1A33FCF3" name="desglose_venta">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>AD340FD1-E602-E7EF-89BB-7FDE13791A9D</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_ven" id="06F8AA90-17A1-1384-E7F2-2966CD83F8AB">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>7D9606AE-0B81-BE14-5A43-A9DB88AAE97E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2C1E4387-1402-1153-D8F1-001D5E361A91</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="64CE54D7-35A4-8A02-E1DC-2AEEB18CDB39" referredColumn="F9672935-3E92-7D68-3215-D9D7DF2B7DDC"/>
+</associations>
+</Column>
+<Column name="id_pro" id="83F482E3-8E93-66A0-F8E2-D1CB189CB068">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>B3B842BC-E278-DC83-271C-87ACE6F4FF80</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2C1E4387-1402-1153-D8F1-001D5E361A91</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5728DF7B-A3E5-8530-51F9-20470B371A99" referredColumn="3AF81D74-2369-55DF-5424-0844203B7D57"/>
+</associations>
+</Column>
+<Column name="cantidad_des_ven" id="FBAD022D-5AF1-8ECD-0659-DDD5B6A58644">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>DDFD4683-7CE4-8920-E9FD-AF8C21BE69EB</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>AC1572F5-277A-6FB9-2211-A06C4F1B9668</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio_unitario_des_ven" id="377C9021-E93E-BAF5-9A05-F536754A8129">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>199256FE-7C73-E675-A8FC-C34AFE20D7CE</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F95C7FA4-6D4C-7239-D0E5-1A90088249C2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="subtotal_des_ven" id="3FC95D32-CA4D-8EBC-A584-21CD11AB6661">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>5A3FDFE5-8F3C-857E-D856-F12A92248AF9</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F95C7FA4-6D4C-7239-D0E5-1A90088249C2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="37326AA9-BF29-D43C-F983-18427BD93FDE" name="desglose_venta_pk">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>7F61ECDE-83D3-4F1A-81B4-337F330786F2</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06F8AA90-17A1-1384-E7F2-2966CD83F8AB"/>
+<colUsage columnID="83F482E3-8E93-66A0-F8E2-D1CB189CB068"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8F447EED-FBF4-8D2C-436F-6596DE00A848" name="desglose_venta_producto_fk">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83F482E3-8E93-66A0-F8E2-D1CB189CB068"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0EEE03AB-927D-4835-2D5C-34DA53A93232" name="desglose_venta_venta_fk">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06F8AA90-17A1-1384-E7F2-2966CD83F8AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

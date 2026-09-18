@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="producto_categoria_fk" directorySegmentName="seg_0" id="0DAA5DBC-5CFC-64FE-2EC1-D72805B2F555">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:59 UTC</createdTime>
+<generatorID>E8B90177-F42A-2CE9-1A05-5AFD0CCEFD65</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CD3D2CBE-1BAE-0032-668E-773E945D2DC3" value="true"/>
+<item key="3344221A-B4D8-24CD-FD91-9344389423B6" value="true"/>
+</engineerTo>
+<sourcePk>0C214A5A-7EB2-E718-EFA8-9DE7AEFD4EDB</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>45E6564A-51EA-196F-5646-B4C367639812</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4CB600A2-1221-2381-9904-9CFF4007A501</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

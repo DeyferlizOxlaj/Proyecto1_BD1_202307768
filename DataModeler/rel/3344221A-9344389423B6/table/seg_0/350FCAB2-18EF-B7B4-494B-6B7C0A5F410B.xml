@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="350FCAB2-18EF-B7B4-494B-6B7C0A5F410B" name="cliente">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>CEFCE238-65C3-2C81-5974-8FB65706E149</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cli" id="718E8CB1-4CC0-3BB2-684A-258490DA3D9D">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>200EF041-1815-F3A2-E1ED-A71C27949086</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2C1E4387-1402-1153-D8F1-001D5E361A91</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_tip_ide" id="36C787EB-3F93-9D3E-C2FD-585E7BE43F32">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>18AEE381-E5FC-7160-DE8A-EA9131B7E840</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2C1E4387-1402-1153-D8F1-001D5E361A91</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="65802C3C-059D-CBAF-2978-7009A9D46EBE" referredColumn="11210229-1D8A-BD7A-6BBB-888D148B7B36"/>
+</associations>
+</Column>
+<Column name="numero_identificacion" id="757576FC-BC7E-141C-5F21-EC8F7CBB6798">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>691511CA-1C13-C60C-0A1F-2165B3442F0B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9BAE844E-2A65-04F9-3A25-8A7E72B67AB0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_per" id="2417302D-DC61-F368-234C-365EA0C319B3">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>8F192D33-0CA1-CBCB-4304-89CF63C44E60</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2C1E4387-1402-1153-D8F1-001D5E361A91</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9B1991C3-8BD9-20BA-4321-E7CE399A9753" referredColumn="C627DE00-6533-A9E0-7A98-B09FC729DB29"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="33852CC5-3ACA-2950-4465-2063AF5D29DD" name="cliente_pk">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>65040FBE-1181-4ADE-4591-EF407F26DAF4</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="718E8CB1-4CC0-3BB2-684A-258490DA3D9D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04F6D92E-869B-1AB3-9270-129ACD8A3327" name="cliente_id_per_uk">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>C9AA8F2F-DB44-C110-0B22-E6C4440AC387</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2417302D-DC61-F368-234C-365EA0C319B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8BCE33C7-CFF0-AD6E-9FD4-662CD2B20294" name="cliente_identificacion_uk">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>ECE469FC-07D3-27EF-8463-C07760A83D8B</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36C787EB-3F93-9D3E-C2FD-585E7BE43F32"/>
+<colUsage columnID="757576FC-BC7E-141C-5F21-EC8F7CBB6798"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6AE69F8A-FCFC-1F78-AB19-7E38E0D2EE32" name="cliente_persona_fk">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2417302D-DC61-F368-234C-365EA0C319B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A5B98D8A-40FA-4ED1-D6ED-94FB33B54DDD" name="cliente_tipo_identificacion_fk">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36C787EB-3F93-9D3E-C2FD-585E7BE43F32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

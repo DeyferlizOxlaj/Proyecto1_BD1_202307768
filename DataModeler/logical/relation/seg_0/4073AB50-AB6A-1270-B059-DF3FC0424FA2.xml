@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="tienda_municipio_fk" directorySegmentName="seg_0" id="4073AB50-AB6A-1270-B059-DF3FC0424FA2">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:59 UTC</createdTime>
+<generatorID>B9376733-7635-5930-0A78-2CC922BE7434</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CD3D2CBE-1BAE-0032-668E-773E945D2DC3" value="true"/>
+<item key="3344221A-B4D8-24CD-FD91-9344389423B6" value="true"/>
+</engineerTo>
+<sourcePk>A89F6730-5640-211A-23D5-3ED61A06F2D1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F6E98C6C-85AC-837A-E383-525968CDE61F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DFE13AB3-D9C3-C9EC-9A85-588BB6E227F6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

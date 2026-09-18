@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="empleado_tienda_fk" directorySegmentName="seg_0" id="75021F21-0A60-188D-7FFB-EE2AC0701297">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:59 UTC</createdTime>
+<generatorID>D3B75A7D-604A-CFBA-A6BC-8C8792C3EA5A</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CD3D2CBE-1BAE-0032-668E-773E945D2DC3" value="true"/>
+<item key="3344221A-B4D8-24CD-FD91-9344389423B6" value="true"/>
+</engineerTo>
+<sourcePk>6D8F6621-9CC0-6375-1D2B-629A56141A74</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DFE13AB3-D9C3-C9EC-9A85-588BB6E227F6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>632AB03F-52D3-0A93-6C9A-A1EAD7AE15FC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

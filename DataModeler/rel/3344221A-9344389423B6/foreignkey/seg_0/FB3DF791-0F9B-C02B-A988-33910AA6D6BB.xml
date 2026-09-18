@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FB3DF791-0F9B-C02B-A988-33910AA6D6BB" containerWithKeyObject="CE741003-D8E8-9205-08BD-60727F6C1A7E" localFKIndex="C43E4BF0-8F24-594A-A992-474F4D845EAC" name="producto_marca_fk">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>BD7F6649-7365-6C1F-A1B9-6A47CF427497</importedID>
+<referredTableLongName>marca</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B05A6D9C-802E-2EBF-B70C-AC5BC04F2CB0</referredTableID>
+<keyObject>49670D1F-63BA-0C7D-E834-9C6845BB150A</keyObject>
+<referredKeyID>49670D1F-63BA-0C7D-E834-9C6845BB150A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_mar</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

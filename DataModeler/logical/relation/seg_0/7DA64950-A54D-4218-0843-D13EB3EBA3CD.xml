@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="departamento_pais_fk" directorySegmentName="seg_0" id="7DA64950-A54D-4218-0843-D13EB3EBA3CD">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:59 UTC</createdTime>
+<generatorID>B175E694-C7C0-7F6E-D0B6-C72D2617B290</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CD3D2CBE-1BAE-0032-668E-773E945D2DC3" value="true"/>
+<item key="3344221A-B4D8-24CD-FD91-9344389423B6" value="true"/>
+</engineerTo>
+<sourcePk>3E590390-E57F-8E4C-2B39-23B7E9F34AC6</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D9F2906C-5154-747B-B6A7-E4E7FE0FC1E7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D861ED15-98B9-3793-4D0B-97CD0B91E4C3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="DataModeler" id="9AD45DEC-4374-88AA-08A1-EC230257C0B2" version="3.5">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:20:10 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>9AD45DEC-4374-88AA-08A1-EC230257C0B2</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="32229A1A-6F15-374C-CE46-6F2AD28AAA07">
+<designStoragePath>/DDL</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="14827772-DDCF-6E6B-9E1C-A92504033026">
+<designStoragePath>/DDL</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="372B7929-A026-7F27-8A24-53E18CF5DB8A">
+<designStoragePath>/DDL</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

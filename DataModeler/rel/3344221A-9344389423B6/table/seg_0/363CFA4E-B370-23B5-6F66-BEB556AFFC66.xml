@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="363CFA4E-B370-23B5-6F66-BEB556AFFC66" name="catalogo_producto">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>B06C31B7-F528-E2A4-D77B-135CA6B89AA8</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_ti" id="FCA1421E-1F35-9C38-D627-DC1050B7D105">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>61F604E9-DB52-CC96-FD80-76DB9D7D8E95</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2C1E4387-1402-1153-D8F1-001D5E361A91</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0A7CC9B2-BB95-319E-197A-D889E94F6471" referredColumn="FDA4C101-2995-247F-1CE1-5BE232F91070"/>
+</associations>
+</Column>
+<Column name="id_pro" id="ED1889A9-803D-12B0-FD98-10D00527E983">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>4500EC48-D0B7-398D-BC69-1B57362F7521</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2C1E4387-1402-1153-D8F1-001D5E361A91</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="21EE6803-E6FF-7BBA-C04B-F8E0DDEA54EF" referredColumn="3AF81D74-2369-55DF-5424-0844203B7D57"/>
+</associations>
+</Column>
+<Column name="precio_vigente_cat_pro" id="7B09DC19-5096-D1AB-521B-50F15CC0FEE3">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>B8F7E214-7AC3-5B55-69A9-357676CD6E95</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F95C7FA4-6D4C-7239-D0E5-1A90088249C2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="existencia_actual_cat_pro" id="3833F912-65E9-2304-5FCD-7496EF38C115">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>FFE5A0AC-F75D-332B-C986-F475F55AAFC5</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>AC1572F5-277A-6FB9-2211-A06C4F1B9668</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6A64C9CA-4F48-FB2A-1A2D-097FCDCA739B" name="catalogo_producto_pk">
+<sourceDDLFile>DDL.sql</sourceDDLFile>
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<importedID>7B5CC979-9185-E3A4-4C47-AF326ECB796B</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FCA1421E-1F35-9C38-D627-DC1050B7D105"/>
+<colUsage columnID="ED1889A9-803D-12B0-FD98-10D00527E983"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="64E73CA9-F368-B466-8BE4-9D6CD90DF975" name="catalogo_producto_producto_fk">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED1889A9-803D-12B0-FD98-10D00527E983"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C8A1462C-4DA9-C35E-ABAA-1746AE46DF14" name="catalogo_producto_tienda_fk">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:41 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FCA1421E-1F35-9C38-D627-DC1050B7D105"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

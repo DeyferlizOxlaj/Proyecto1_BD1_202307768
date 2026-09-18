@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pago_venta_fk" directorySegmentName="seg_0" id="ADDB5F41-7FA1-F487-043C-80799E48EB65">
+<createdBy>deyferliz</createdBy>
+<createdTime>2026-09-18 07:29:59 UTC</createdTime>
+<generatorID>57D87002-348C-1C78-1815-55A8861426F4</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CD3D2CBE-1BAE-0032-668E-773E945D2DC3" value="true"/>
+<item key="3344221A-B4D8-24CD-FD91-9344389423B6" value="true"/>
+</engineerTo>
+<sourcePk>9557DF3B-E584-F589-78FB-860FB2B9A10A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>267FC3CE-E1FA-9D3A-FA91-0473CEE1D895</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0014D5A6-9903-37D7-6C05-2C9828F2A1A4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
